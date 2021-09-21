@@ -47,6 +47,12 @@ nav img{
     height: 60px;
     margin: 0px 10px;
 }
+#ourteam {
+    display: inline-flex;
+}
+#ourteam .card{
+    width: 350px;
+}
 .teams{
     margin: 50px;
     display: flex;
@@ -58,9 +64,9 @@ nav img{
     border-bottom: solid 6px rgb(151, 151, 255);
     text-align: center;
 }
-
 .grid h3{
     padding-top: 30px;
+    margin-bottom: 2px;
     font-weight: 700;
     transition: 0.5s;
 }
@@ -142,6 +148,7 @@ nav img{
     color: rgba(0, 0, 0, 0.705);
 }
 
+
 /*----------------------------card-hover effects------------------*/
 .card:hover{
     transform: translate(-5px,-5px);
@@ -186,11 +193,21 @@ nav img{
     .grid{
     grid-template-columns: 450px;
 }
+
+#ourteam{
+    flex-direction: column;
+}
+#ourteam .card{
+    width: 450px;
+}
 }
 
 @media (max-width:500px) {
     .grid{
         grid-template-columns: 90vw;
+    }
+    #ourteam .card{
+        width: 90vw;
     }
 }
 @media (max-width:425px) {
@@ -219,7 +236,7 @@ nav img{
     .card img{
         width: 100px;
         height: 100px;
-    }
+    }   
     .grid h3{
         padding-top: 20px;
         font-weight: 700;
