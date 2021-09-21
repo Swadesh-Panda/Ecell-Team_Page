@@ -220,4 +220,10 @@ nav img{
         width: 100px;
         height: 100px;
     }
+    .grid h3{
+        padding-top: 20px;
+        font-weight: 700;
+        transition: 0.5s;
+        margin-bottom: -8px;
+    }
 }
