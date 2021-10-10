@@ -20,28 +20,30 @@ nav{
     z-index: 10;
 }
 nav a{
-    margin: 0px 20px;
+    margin: 0px 8px;
     font-size: 23px;
     text-decoration: none;
     color: white;
+    background-color: rgb(51, 50, 50);
     transition: 0.25s;
     
 
     display: inline-flex;
     align-items: center;
     height: 70%;
-    padding: 0px 10px;
+    padding: 0px 8px;
     border-radius: 8px;
 
     position: absolute;
     right: 0;
 }
 nav a:hover{
-    background-color: rgb(51, 50, 50);
+    background-color: rgba(255, 255, 255, 0.87);
+    color: black;
     transition: 0.25s;
 }
 nav i{
-    margin-right:10px;
+    margin-right:5px;
 }
 nav img{
     height: 60px;
@@ -93,6 +95,7 @@ nav img{
 
     height: 180px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 
     display: flex;
     justify-content: space-around;
@@ -141,6 +144,7 @@ nav img{
     bottom: 8px;
     right: 8px;
     background-color: #f3f3f3;
+    border-radius: 5px;
     font-size: 80%;
 }
 .icons i{
@@ -213,6 +217,7 @@ nav img{
 @media (max-width:425px) {
     nav a{
         margin: 5px;
+        background-color: transparent;
     }
     nav i{
         margin: 0px 0px;
